@@ -9,7 +9,7 @@ import { Student } from '../model/ui-model/student.model';
 })
 export class StudentComponent implements OnInit {
   students : Student[]
-  fillterString = ""
+  filteredValue: string;
   constructor(private stService : StudentService){}
   ngOnInit(){
     this.stService.getAllStudent().subscribe(responSt => {

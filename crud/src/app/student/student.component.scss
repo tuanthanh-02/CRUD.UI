@@ -9,47 +9,48 @@ p-table{
     font-size: 16px;
     /* Các thuộc tính CSS khác tùy chỉnh */
   }
-  .custom-table {
+.custom-table {
     width: 100%;
     border-collapse: collapse;
     font-size: 14px;
   }
   
-  .custom-table th,
-  .custom-table td {
+.custom-table th,
+.custom-table td {
     padding: 8px;
     text-align: left;
     border-bottom: 1px solid #ccc;
   }
   
-  .custom-table th {
+.custom-table th {
     background-color: #f2f2f2;
   }
   
-  .custom-table tr:nth-child(even) {
+.custom-table tr:nth-child(even) {
     background-color: #f9f9f9;
   }
   
-  .custom-table tr:hover {
+.custom-table tr:hover {
     background-color: #eaeaea;
   }
-  .Table {
-    margin: 20px;
+.Table {
+    margin-left: 5rem;
+    margin-right: 5rem;
   }
   
-  .custom-table {
+.custom-table {
     width: 100%;
   }
   
-  .custom-table th,
-  .custom-table td {
+.custom-table th,
+.custom-table td {
     padding: 10px;
   }
   
-  .custom-table th {
+.custom-table th {
     background-color: #f2f2f2;
   }
   
-  .custom-table tr:nth-child(even) {
-    background-color: #f9f9f9;
+.custom-table tr:nth-child(even) {
+      background-color: #f9f9f9;
   }
